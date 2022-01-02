@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.7"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"程序员必备的思维能力：抽象思维","c":[{"t":"heading","d":2,"p":{"lines":[2,3]},"v":"收获","c":[{"t":"list_item","d":4,"p":{"lines":[4,5],"index":1},"v":"1. 早点意识到抽象思维的重要性，可以让你少走很多弯路 -&gt; 总是后知后觉……"},{"t":"list_item","d":4,"p":{"lines":[5,6],"index":2},"v":"2. 你要对某个事物抽象一下的话，肯定得要有目的哈，不然，你为啥要抽象它呢？"},{"t":"list_item","d":4,"p":{"lines":[6,7],"index":3},"v":"3. 抽象思维即词的思维或逻辑思维 -&gt; 你要得出结论，在推导这个结论的过程中，你需要动用你的抽象能力来抽象出合理的词出来，然后完成整个逻辑推导过程……","c":[{"t":"list_item","d":6,"p":{"lines":[7,8],"index":1},"v":"1. 你每写一行语句就是在讲一句话，这句话里边会用到很多抽象出来的词 -&gt; 好的变量命名会让他人更好地理解你的代码在表达什么，你到底在讲什么"},{"t":"list_item","d":6,"p":{"lines":[8,9],"index":2},"v":"2. 抽象+思维：你对事物抽象出某个概念+使用这个概念推导出你的结论"}]},{"t":"list_item","d":4,"p":{"lines":[9,10],"index":4},"v":"4. 你对一个事物的抽象是分段位的：水牛 -&gt; 牛","c":[{"t":"list_item","d":6,"p":{"lines":[10,11],"index":1},"v":"1. 外延：以一个概念为起点的衍生，如平行四边形这个概念，可以延伸到正方形这个概念"},{"t":"list_item","d":6,"p":{"lines":[11,12],"index":2},"v":"2. 内涵：条件越少，满足这些条件的概念越多，条件越多，满足这些条件的概念越少"},{"t":"list_item","d":6,"p":{"lines":[12,13],"index":3},"v":"3. 抽象层次越高，内涵越小，外延越大，泛化能力越强。然而，其代价就是业务语义表达能力越弱。"},{"t":"list_item","d":6,"p":{"lines":[13,14],"index":4},"v":"4. 如何权衡抽象层次，是我们系统设计的关键所在，也是区分普通程序员和优秀程序员的关键所在"}]},{"t":"list_item","d":4,"p":{"lines":[14,15],"index":5},"v":"5. 越抽象，复杂度越低","c":[{"t":"list_item","d":6,"p":{"lines":[15,16],"index":1},"v":"1. 网络通信之七层 OSI 参考模型或者四层 TCP/IP 参考模型"},{"t":"list_item","d":6,"p":{"lines":[16,17],"index":2},"v":"2. 编程语言 -&gt; 二进制的 01 指令到高级编程语言"}]},{"t":"list_item","d":4,"p":{"lines":[17,18],"index":6},"v":"6. 我与重复代码不共戴天 -&gt; 为了锻炼抽象能力，愿重复代码多多益善"},{"t":"list_item","d":4,"p":{"lines":[18,19],"index":7},"v":"7. 锻炼抽象能力？","c":[{"t":"list_item","d":6,"p":{"lines":[19,20],"index":1},"v":"1. 少看视频，多看书，虽然容易让你看懂，但视频太具体了，会让你少了很多想象和思考"},{"t":"list_item","d":6,"p":{"lines":[20,21],"index":2},"v":"2. 如果你非得看视频，那么你得多总结归纳，而不是视频讲了啥，然后你就一字不落地把它给敲到你的笔记上！"},{"t":"list_item","d":6,"p":{"lines":[21,22],"index":3},"v":"3. 造让人懂的名字，造让人懂的概念"}]}]},{"t":"heading","d":2,"p":{"lines":[23,24]},"v":"疑问","c":[{"t":"list_item","d":4,"p":{"lines":[25,26]},"v":"「创意就像鱼，想要大鱼就要潜入深渊」是什么意思？","c":[{"t":"list_item","d":6,"p":{"lines":[26,27]},"v":"<a href=\"https://baike.baidu.com/tashuo/browse/content?id=eca9aca482077f4ed5278834\">大卫·林奇：创意就像鱼，想要大鱼就要潜入深渊_百科 TA 说</a>"},{"t":"list_item","d":6,"p":{"lines":[27,28]},"v":"<a href=\"https://www.zhihu.com/question/41365485/answer/795797981\">有哪些典型的「学生思维」？ - 狄文达的回答 - 知乎</a>"}]},{"t":"list_item","d":4,"p":{"lines":[28,29]},"v":"如果我早点懂这个道理，我得少走很多弯路","c":[{"t":"list_item","d":6,"p":{"lines":[29,30]},"v":"<a href=\"https://www.zhihu.com/question/20808888/answer/605527067\">年轻人如何规划人生？ - 小宇学长的回答 - 知乎</a>"}]},{"t":"list_item","d":4,"p":{"lines":[30,31]},"v":"作者写的「代码精进之路」这本书？","c":[{"t":"list_item","d":6,"p":{"lines":[31,32]},"v":"<a href=\"http://www.j9p.com/down/525393.html\">代码精进之路 PDF 电子版-精品下载</a>"}]},{"t":"list_item","d":4,"p":{"lines":[32,33]},"v":"UML 类图中的<code>+</code>、<code>-</code>是啥含义？","c":[{"t":"list_item","d":6,"p":{"lines":[33,34]},"v":"<a href=\"https://www.cnblogs.com/shindo/p/5579191.html\">五分钟读懂 UML 类图</a>"}]},{"t":"list_item","d":4,"p":{"lines":[34,35]},"v":"「领域建模」是啥？","c":[{"t":"list_item","d":6,"p":{"lines":[35,36]},"v":"<a href=\"https://www.zhihu.com/question/25089273/answer/233316164\">领域驱动架构（DDD）建模中的模型到底是什么？ - dz902 的回答 - 知乎</a>"},{"t":"list_item","d":6,"p":{"lines":[36,37]},"v":"<a href=\"http://www.fanyilun.me/2018/04/08/%E8%B0%88%E8%B0%88%E9%A2%86%E5%9F%9F%E5%BB%BA%E6%A8%A1/\">谈谈领域建模 | Yilun Fan's Blog</a>"},{"t":"list_item","d":6,"p":{"lines":[37,38]},"v":"<a href=\"https://www.infoq.cn/article/6hpbsmxqngx_eapkuuws\">换个思维学领域建模方法和实践-InfoQ</a>"}]},{"t":"list_item","d":4,"p":{"lines":[38,39]},"v":"作者写的其他有关「程序员必备的思维能力」的文章？","c":[{"t":"list_item","d":6,"p":{"lines":[39,40]},"v":"程序员必备的思维能力：结构化思维"},{"t":"list_item","d":6,"p":{"lines":[40,41]},"v":"程序员必备的思维能力：逻辑思维"},{"t":"list_item","d":6,"p":{"lines":[41,42]},"v":"<a href=\"https://weixin.sogou.com/\">https://weixin.sogou.com/</a>"}]}]}]})</script>
+</body>
+</html>
