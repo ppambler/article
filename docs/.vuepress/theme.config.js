@@ -29,7 +29,7 @@ const themeConfig = {
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
-          return (new Date(timestamp)).toUTCString()
+          // return (new Date(timestamp)).toUTCString()
           //或者用下面这段
           // const moment = require('moment')
           // moment.locale(lang)
