@@ -23,7 +23,7 @@ module.exports = {
     }],
     ['meta', {
       name: 'referrer',
-      content: 'no-referrer|origin|unsafe-url'
+      content: 'no-referrer'
     }],
     ['meta', {
       name: 'keywords',
