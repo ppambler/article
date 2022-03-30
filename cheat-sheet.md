@@ -20,11 +20,14 @@ ppambler/article -> Settings -> Security -> Actions secrets
 
 ➹：[使用 vuepress 更新我的博客 | Coding and Fixing](https://vxhly.github.io/views/nodejs/vuepress-blog-on-github.html#%E6%8B%93%E5%B1%95%E9%98%85%E8%AF%BB)
 
+➹：[使用 vuepress 发布博客，附踩坑记录 | Wkii Blog](https://www.wkii.net/Tech/use-vuepress-push-blog.html#%E9%83%A8%E7%BD%B2%E5%88%B0github-pages%E5%92%8C%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90)
+
+➹：[GitHub 配置自动部署 pages 与服务器 | 二丫讲梵](https://wiki.eryajf.net/pages/47a507/)
+
 ## 3）盗链问题
 
 Gitee 做了限制 -> 原因：图片的请求是从哪个域名旗下的网页发起的？同域名就不限制，不同域名就限制 -> 设置`no-referrer`，表示直接在浏览器的地址栏敲下图片地址，也就是不知道来源
 
 在`config`里边配置一下 -> 给`head`添加有关`referrer`的`meta`
 
-➹：[前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题 · Issue #31 · biaochenxuying/blog](https://github.com/biaochenxuying/blog/issues/31)
-
+➹：[前端解决第三方图片防盗链的办法 - html referrer 访问图片资源 403 问题 · Issue #31 · biaochenxuying/blog](https://github.com/biaochenxuying/blog/issues/31)
