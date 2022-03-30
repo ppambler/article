@@ -22,6 +22,10 @@ module.exports = {
       content: 'width=device-width,initial-scale=1,user-scalable=no'
     }],
     ['meta', {
+      name: 'referrer',
+      content: 'no-referrer|origin|unsafe-url'
+    }],
+    ['meta', {
       name: 'keywords',
       content: '前端,JavaScript,Vue.js,React'
     }],
