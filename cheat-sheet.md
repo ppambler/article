@@ -18,6 +18,8 @@ ppambler/article -> Settings -> Security -> Actions secrets
 
 ➹：[actions/checkout: Action for checking out a repo](https://github.com/actions/checkout)
 
+➹：[使用 vuepress 更新我的博客 | Coding and Fixing](https://vxhly.github.io/views/nodejs/vuepress-blog-on-github.html#%E6%8B%93%E5%B1%95%E9%98%85%E8%AF%BB)
+
 ## 3）盗链问题
 
 Gitee 做了限制 -> 原因：图片的请求是从哪个域名旗下的网页发起的？同域名就不限制，不同域名就限制 -> 设置`no-referrer`，表示直接在浏览器的地址栏敲下图片地址，也就是不知道来源
