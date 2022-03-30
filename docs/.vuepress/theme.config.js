@@ -25,18 +25,18 @@ const themeConfig = {
   },
   nav,
   plugins: [
-    // [
-    //   '@vuepress/last-updated',
-    //   {
-    //     transformer: (timestamp, lang) => {
-    //       return (new Date(timestamp)).toUTCString()
-    //       //或者用下面这段
-    //       // const moment = require('moment')
-    //       // moment.locale(lang)
-    //       // return moment(timestamp).toLocaleString()
-    //     }
-    //   }
-    // ],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          return (new Date(timestamp)).toUTCString()
+          //或者用下面这段
+          // const moment = require('moment')
+          // moment.locale(lang)
+          // return moment(timestamp).toLocaleString()
+        }
+      }
+    ],
     [
       '@vuepress-reco/vuepress-plugin-pagation', {
         perPage: 18
